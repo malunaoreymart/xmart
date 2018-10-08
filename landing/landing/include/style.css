@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%
+	width: 100%;
+}
+.intro {
+	height: 1000px;
+	width: 100%;
+	margin: auto;
+	background:url(../back.jpg) no-repeat 50% 50%;
+	display: table;
+	top:0;
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content{
+	font-family: 'Bree Serif', sans-serif;
+	text-align: center;
+}
+.content h1{
+	letter-spacing: 10px;
+    font-size: 63px;
+    color: white;
+    text-shadow: 1px 2px 2px red;
+}
+input.form-control {
+    height: 41px;
+}
+label{
+	font-weight: 900 !important;
+    font-size: 1em;
+}
+button.btn.btn-primary.btn-md {
+    font-size: 17px;
+    font-family: serif;
+    font-weight: 500;
+}
