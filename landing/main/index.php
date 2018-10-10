@@ -15,8 +15,8 @@
   border: 16px solid #f3f3f3;
   border-radius: 50%;
   border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   -webkit-animation: spin 0.8s linear infinite;
   animation: spin 0.8s linear infinite;
 }
@@ -77,6 +77,5 @@ function showPage() {
   document.getElementById("myDiv").style.display = "block";
 }
 </script>
-
 </body>
 </html>
