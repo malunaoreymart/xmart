@@ -15,7 +15,7 @@
 	$row = $result->fetch_assoc();
 	
 	if($a == $row["user_name"]){
-		echo "<script>window.location = '../../admin/index.php';</script>";
+		echo "<script>window.location = '../main/admin/index.php';</script>";
 	}else if($a == ""){
 		echo "no inputted username";
 	}else{
